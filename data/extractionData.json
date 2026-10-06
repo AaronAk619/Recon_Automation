@@ -1,0 +1,18 @@
+{
+"module": "UPI",
+"subModule": "NTSL",
+
+"localFilePath":
+"D:/Recon/IPPB/UPI/UPI Sample File with some Extra records/25-08-2026/UPI_NTSLIPB250826_8C.xls",
+
+"remoteFolder":
+"/recon_nfs/IPPBRecon5.6/SIT1/FilesPath/transaction_files/Infile/UPI/UPI_NTSL/UPI_NTSLIPB250826_8C.xls",
+
+"truncateQueries":
+[
+"TRUNCATE TABLE REC_NTSL_UPI_STAGE_T;",
+"delete from RCN_BATCH_PROCESS  WHERE RBP_PROCESS_ID ='900769074203';",
+"delete from rcn_ttum_entries where rte_file_id='900769074203';",
+"delete from RCN_SETL_TTUM_ENTRIES where rst_file_id in('900769074203');"
+]
+}

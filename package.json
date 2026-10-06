@@ -1,0 +1,23 @@
+{
+  "name": "recon_01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "@types/pg": "^8.23.1",
+    "@types/ssh2-sftp-client": "^9.0.6"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "pg": "^8.23.1",
+    "ssh2-sftp-client": "^12.1.1",
+    "winston": "^3.19.0"
+  }
+}
