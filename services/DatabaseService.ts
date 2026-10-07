@@ -19,4 +19,14 @@ return client;
 
 }
 
+async getCount(query: string) {
+
+const client = await this.connect();
+const result = await client.query(query);
+
+await client.end();
+
+return Number(result.rows[0].count);
+}
+
 }

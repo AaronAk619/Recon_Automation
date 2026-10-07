@@ -4,9 +4,7 @@ import { SftpService } from './SftpService';
 import { LoginPage } from '../pages/LoginPage';
 import { HomePage } from '../pages/HomePage';
 import { ExtractionPage } from '../pages/ExtractionPage';
-import fs from 'fs';
 import { config } from '../config/appConfig';
-
 
 export class ExtractionService {
 
